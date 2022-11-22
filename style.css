@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.container{
+    width:500px;
+    height: 250px;
+    border: 5px solid black;
+    padding: 100px 80px 20px 20px;
+    background-color: rgb(3, 156, 105);
+    clip-path: circle(12.9% at 81% 25%);
+    transition: all 1s;
+}
+
+.container:hover{
+    clip-path: circle(110.5% at 81% 25%);
+    border-radius: 9%;
+
+}
+
